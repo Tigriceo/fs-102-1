@@ -1,0 +1,82 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+.test-div {
+  background-color: red;
+  margin-bottom: 20px;
+  height: 40px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.block {
+  display: block;
+}
+.flex {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.inline-flex {
+  display: inline-flex;
+  background-color: blue;
+}
+.inline {
+  display: inline;
+}
+.inline-block {
+  display: inline-block;
+}
+
+.margin-hlop > div {
+  margin: 20px 0;
+  background-color: red;
+}
+
+.margin-hlop > div {
+  color: #fff;
+}
+/* перший елемент після нас */
+.we + div {
+  background-color: green;
+}
+/* всі елементи після нас */
+.we ~ div {
+  background-color: green;
+}
+
+.menu-items > li > a {
+  color: red;
+}
+.menu-items > li > a + ul {
+  display: none;
+}
+.menu-items > li > a:hover + ul {
+  display: block;
+}
+
+.menu-items > li > ul > li > a {
+  color: green;
+}
+
+.focus {
+  padding: 50px 0;
+}
